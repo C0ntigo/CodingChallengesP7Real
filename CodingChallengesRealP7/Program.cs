@@ -6,7 +6,6 @@ class Challenges
 
     public static void Main(string[] args)
     {
-
         Console.WriteLine("Welcome to My Coding Challenges Program! \n Please Give me a number between 1 - ??");
         var choice = Console.ReadLine();
         int choices = int.Parse(choice);
@@ -255,6 +254,5 @@ class Challenges
     {
         return words4;
         return words5;
-
     }
 }
